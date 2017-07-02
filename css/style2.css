@@ -1,0 +1,69 @@
+body {
+  background-color: #649900;
+  font: normal 15px/20px Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+#content {
+  width: 960px;
+  margin: 0 auto;
+  background: #666701;
+  padding: 10px 30px;
+}
+#content > h1 {
+  color: #ffcc0c;
+}
+#content > h2 {
+  color: #ffcc0c;
+  font-style: normal;
+}
+#content img {
+  border: 1px solid white;
+  padding: 10px;
+}
+#content a {
+  color: #ffcc0c;
+}
+#content .img-left {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+#content .img-right {
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#content .brief {
+  width: 96%;
+  float: left;
+  background-color: #677d01;
+  font-style: normal;
+  padding: 20px;
+  margin: 5px 0 30px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table > caption {
+  text-align: right;
+  padding: 10px 20px;
+  font-style: italic;
+}
+table > tbody > tr {
+  text-align: left;
+  background-color: #657e00;
+}
+table > tbody > tr > th {
+  border-right: none;
+  padding: 10px 0 10px 20px;
+  margin: 0;
+  background-color: #94a34e;
+}
+table > tbody > tr > td {
+  padding: 10px 0 10px 20px;
+  border-bottom: 2px solid #94a34e;
+}
+
+/*# sourceMappingURL=style2.css.map */
